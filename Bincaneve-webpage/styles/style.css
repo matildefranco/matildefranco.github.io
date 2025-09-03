@@ -1,0 +1,253 @@
+.libertinus-serif-display-regular {
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  font-size: 20px;
+  background-color: #ffb6c1;
+}
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 10px;
+}
+header,
+nav,
+article,
+aside,
+footer {
+  background-color: #f3f1e9;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px;
+  content: 20px;
+}
+main {
+  background-color: #f3f1e9;
+  border-radius: 20px; /* rounded corners */
+  padding: 20px; /* space between text and border */
+  margin: 10px; /* space outside the main box */
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+header img {
+  height: 60px;
+}
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav button {
+  font-size: 20px;
+  background-color: #ffb6c1;
+  border-radius: 10px;
+}
+
+nav li {
+  text-align: center;
+  flex: 1;
+}
+.personaggi {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping to new rows */
+  gap: 20px; /* space between images */
+  justify-content: center; /* center images horizontally */
+}
+
+.personaggi img {
+  width: 150px; /* make them the same width */
+  height: 150px; /* make them the same height */
+  object-fit: cover; /* crop/fit images nicely */
+  border-radius: 10px; /* optional: rounded corners */
+}
+
+.autori img {
+  width: 200px; /* make them the same width */
+  height: 150px; /* make them the same height */
+  object-fit: cover; /* crop/fit images nicely */
+  border-radius: 10px; /* optional: rounded corners */
+}
+
+.author-card {
+  display: flex;
+  align-items: flex-start; /* keeps top edges aligned */
+  gap: 20px; /* space between image and text */
+  margin: 20px;
+}
+
+.author-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.author-info h3 {
+  margin: 0 0 10px;
+}
+
+.author-info ul {
+  padding: 0;
+  margin: 0;
+}
+
+.author-info li {
+  margin-bottom: 6px;
+}
+.author-card {
+  display: flex;
+  align-items: flex-start; /* keeps top edges aligned */
+  gap: 20px; /* space between image and text */
+  margin: 20px;
+}
+
+.author-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.author-info h3 {
+  margin: 0 0 10px;
+}
+
+.author-info ul {
+  list-style-type: none; /* remove bullets (optional) */
+  padding: 0;
+  margin: 0;
+}
+
+.author-info li {
+  margin-bottom: 6px;
+}
+.author-card {
+  display: flex;
+  align-items: flex-start; /* keeps top edges aligned */
+  gap: 20px; /* space between image and text */
+  margin: 20px;
+}
+
+.author-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.author-info h3 {
+  margin: 0 0 10px;
+}
+
+.author-info ul {
+  list-style-type: none; /* remove bullets (optional) */
+  padding: 0;
+  margin: 0;
+}
+
+.author-info li {
+  margin-bottom: 6px;
+}
+.author-card {
+  display: flex;
+  align-items: flex-start; /* keeps top edges aligned */
+  gap: 20px; /* space between image and text */
+  margin: 20px;
+}
+
+.author-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.author-info h3 {
+  margin: 0 0 10px;
+}
+
+.author-info ul {
+  list-style-type: none; /* remove bullets (optional) */
+  padding: 0;
+  margin: 0;
+}
+
+.author-info li {
+  margin-bottom: 6px;
+}
+.author-card {
+  display: flex;
+  align-items: flex-start; /* keeps top edges aligned */
+  gap: 30px; /* space between image and text */
+  margin: 20px;
+}
+
+.author-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.author-info h3 {
+  margin: 0 0 10px;
+}
+
+.author-info ul {
+  list-style-type: none; /* remove bullets (optional) */
+  padding: 0;
+  margin: 0;
+}
+
+.author-info li {
+  margin-bottom: 6px;
+}
+
+.chapters {
+  background-color: #ffb6c1; /* rose background */
+  padding: 20px;
+  border-radius: 20px; /* rounded corners */
+}
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10px;
+}
+
+.prev-chapter,
+.next-chapter {
+  font-size: 1 rem;
+  text-decoration: none;
+  padding: 10px;
+}
+.next-chapter {
+  text-align: right;
+}
+
+.personaggi {
+  background-color: #f3f1e9;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px;
+  content: 20px;
+}
+iframe {
+  border-radius: 20px; /* rounded corners */
+  display: block;
+  margin: 0 auto; /* centers horizontally */
+  padding-bottom: 20px;
+  border-bottom: 20px;
+}
